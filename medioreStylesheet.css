@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+a{
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 0px;
+  margin:0 auto;
+}
+header{
+  background-color:rgb(255, 248, 252);
+  height:30px;
+}
+.header-left {
+  float: left;
+  margin-left: 10px;
+  font-size: 25px;
+  padding-left: 0px;
+  padding-top: 18px;
+}
+.header-right{
+float: right;
+padding-right: 20px;
+padding-top: 25px;
+background-color: rgb(247, 233, 235);
+
+}
+
+.logo{
+padding-left: 10px;
+padding-bottom: 15px;
+  float: left;
+}
+.info{
+padding-top: 20px;
+padding-left: 250px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.imgur.com/Y3GUdgp.jpg?2);
+  background-size: cover;
+  color: rgb(61, 12, 211);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.lesson-wrapper {
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: #f3beef;
+    text-align: center;
+    border-left: gray 20px;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #510775;
+  }
+  
+  .heading2 {
+    font-weight: normal;
+    color:#5f0a9167;
+
+  
+  }
+  .lesson {
+    float: left;
+    width: 25%;
+  
+  }
+  .lesson h1 {
+    float: left;
+  }
+  
+  .lesson-icon {
+    position: relative;
+    float: left;
+    
+    padding-top: 40px;
+    padding-right: 80px;
+    margin-right: 80px;
+
+  }
+  
+  .lesson-icon p {
+    
+    top: 44%;
+    width: 100%;
+    padding-bottom:30px;
+    color: rgb(202, 27, 4);
+    font-size: 25px;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #f0ec24;
+  }
+  ul h1{
+    color:#a80e5b;
+    font-size: 40px;
+  }
+  .footer {
+    
+    color: rgb(17, 9, 9);
+    height: 210px;
+    padding: 25px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 40px;
+    font-style:algerian;
+  }
+  .footer-logo p {
+      font-style: castellar;
+      font-size: 18px;
+      padding-left:70px;
+      padding-top: 0px;
+  }
+ .footer-list {
+     float:right;
+     margin-right: 60px;
+     margin-left: 40px;
+     font-size: 20px;
+     
+ }
+ dt{
+   color:navy;
+ }
+ dd {
+     color:#FF69B4;
+ }
